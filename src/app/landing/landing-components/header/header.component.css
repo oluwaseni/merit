@@ -1,0 +1,58 @@
+
+  a i{
+    color: #ac0d64 !important;
+  }
+  .active {
+    /* background-color: #0a0a0a; */
+    color: #ffffff !important;
+    text-decoration: none !important;
+    font-size: 110%;
+    font-weight: bold;
+    padding-bottom: 5% !important;
+    
+  }
+  .active:hover {
+    /* background-color: #0a0a0a; */
+    /* color: #ffffff !important; */
+    /* text-decoration: #ac0d64; */
+    text-decoration: none !important;
+    border-bottom: solid #ac0d64 2px;
+    /* border-bottom: #ac0d64 solid 1px; */
+  }
+  
+  .nav-link:hover {
+    /* background-color: #0a0a0a; */
+    color: #ffffff !important;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    /* background-color: #0a0a0a; */
+    color: #ac0d64;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    /* background-color: #0a0a0a; */
+    color: #ac0d64;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+
+  .after{
+    height: max-content !important;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  .foot{
+    height: 100px !important;
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+  }

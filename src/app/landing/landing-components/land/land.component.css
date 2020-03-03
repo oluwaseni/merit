@@ -1,0 +1,169 @@
+.banner{
+    /* position: absolute; */
+    background-attachment: fixed;
+    top: -10px;
+    height: max-content !important;
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: rgb(255, 255, 255);
+    background-image: url('/assets/images/laptop.jpg');
+    background-size: cover;
+    /* background-position: right; */
+    /* background: linear-gradient(to right, #000000 20%, #C6C6C6 30%); */
+    /* background-position-y: -10px; */
+    background-repeat: no-repeat;
+    margin: auto;
+    /* margin-top: -10% !important; */
+    padding-top: 13%;
+    padding-bottom: 13%;
+    padding-left : 7%;;
+    /* background-color: #e0c6c6; */
+    /* transition: background-image 540ms ease-in; */
+ 
+
+}
+
+
+
+
+.next{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-color: #56ccdd;
+}
+
+
+.after{
+    height: max-content !important;
+    width: 100%;
+    background-color: #ffffff;
+  }
+
+  .after-inner{
+    background-color: #ffffff ;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    padding: 5% !important;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+    color: #000000;
+  }
+
+  .box{
+    box-shadow: 2px 2px 2px 2px #ac0d64;
+    margin-left: 5% !important;
+  }
+  .boxes{
+    box-shadow: 2px 2px 2px 2px #dddcda;
+    margin-left: 5% !important;
+  }
+
+  
+.last{
+    height: max-content !important;
+    width: 100%;
+    background-color: #f7f3f3;
+    margin-left: 0;
+   
+    z-index: 20;
+    /* background-image: url('../../assets/unnamed(1).jpg'); */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+  .last-inner{
+    background-color: #dad3d3 ;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+    padding: 10% !important;
+    color: #000000;
+  }
+
+
+
+
+
+.graph{
+    color: #ffffff; width: 35%; margin-left: 8%; top: 20% !important;
+  }
+  
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (min-width: 700px) {
+    
+
+  }
+  @media screen and (max-width: 700px) {
+
+        
+.sub{
+  width: 100% !important;
+}
+    .sidebar {
+
+      position: fixed;
+      padding-top: 20%;
+      width: 10%;
+      height: auto;
+      font-size: 80%;
+      /* position: relative; */
+    }
+    
+  .graph{
+    color: #ffffff; width: 35%; margin-left: 8%; top: 10% !important;
+  }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+
+  .icons{
+    margin-right: 5px !important;
+  }
+
+  @media screen and (max-width: 500px) {
+
+.graph{
+  width: 80%;
+}
+.services-text{
+  width: 100% !important;
+}
+
+.lowbtn{
+  font-size: 30% !important;
+}
+
+
+
+
+.boxes, .box{
+  font-size: 60% !important;
+}
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+      padding: 8px;
+      font-size: 60%;
+
+    }
+
+    
+.boxes{
+  font-size: 50% !important;
+}
+
+
+
+    
+  .graph{
+    display: none;
+    color: #ffffff; width: 25%; margin-left: 8%; top: 10% !important;
+  }
+  }
