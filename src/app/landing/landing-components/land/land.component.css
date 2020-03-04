@@ -1,7 +1,7 @@
 .banner{
     /* position: absolute; */
     background-attachment: fixed;
-    top: -10px;
+    /* top: -10px; */
     height: max-content !important;
     font: 400 15px/1.8 Lato, sans-serif;
     color: rgb(255, 255, 255);
@@ -20,6 +20,15 @@
     /* transition: background-image 540ms ease-in; */
  
 
+}
+
+#carousel{
+  height: 800px !important;
+  width: 100%;
+}
+
+.carousel-inner{
+  height: 500px !important;
 }
 
 
@@ -146,6 +155,10 @@
   }
   @media screen and (max-width: 700px) {
 
+    .carousel-inner{
+      height: 300px !important;
+    }
+    
         
 .sub{
   width: 100% !important;
