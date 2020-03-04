@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './landing-components/header/header.component';
 import { Routes } from '@angular/router';
 import { LandComponent } from './landing-components/land/land.component';
+import { AboutComponent } from './landing-components/about/about.component';
 
 // const routes: Routes = [
 //   {
@@ -17,7 +18,7 @@ import { LandComponent } from './landing-components/land/land.component';
 // ]
 
 @NgModule({
-  declarations: [HeaderComponent, LandComponent],
+  declarations: [HeaderComponent, LandComponent, AboutComponent],
   imports: [
     CommonModule
   ]
