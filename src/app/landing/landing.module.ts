@@ -18,7 +18,7 @@ import { AboutComponent } from './landing-components/about/about.component';
 // ]
 
 @NgModule({
-  declarations: [HeaderComponent, LandComponent, AboutComponent],
+  declarations: [LandComponent, AboutComponent],
   imports: [
     CommonModule
   ]

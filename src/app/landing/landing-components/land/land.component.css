@@ -5,7 +5,7 @@
     height: max-content !important;
     font: 400 15px/1.8 Lato, sans-serif;
     color: rgb(255, 255, 255);
-    background-image: url('/assets/images/laptop.jpg');
+    background-image: url('/assets/images/outdoor.jpg');
     background-size: cover;
     /* background-position: right; */
     /* background: linear-gradient(to right, #000000 20%, #C6C6C6 30%); */
@@ -37,13 +37,17 @@
     height: max-content !important;
     width: 100%;
     background-color: #ffffff;
+    background-image: url('/assets/images/cable-wires.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .after-inner{
     background-color: #ffffff ;
     height: 100%;
     width: 100%;
-    opacity: 0.8;
+    opacity: 0.95;
     padding: 5% !important;
     padding-left: 10% !important;
     padding-right: 10% !important;
@@ -76,7 +80,7 @@
   margin-left: 0;
  
   z-index: 20;
-  /* background-image: url('../../assets/service5.jpg'); */
+  background-image: url('/assets/cable-wires.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,7 +105,7 @@
     margin-left: 0;
    
     z-index: 20;
-    /* background-image: url('../../assets/unnamed(1).jpg'); */
+    background-image: url('/assets/images/cable1.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,6 +119,16 @@
     opacity: 0.9;
     padding: 10% !important;
     color: #000000;
+  }
+
+  .foot{
+    height: 50px !important;
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 1%;
+    padding-bottom: 1%;
   }
 
 
