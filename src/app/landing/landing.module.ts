@@ -4,6 +4,7 @@ import { HeaderComponent } from './landing-components/header/header.component';
 import { Routes } from '@angular/router';
 import { LandComponent } from './landing-components/land/land.component';
 import { AboutComponent } from './landing-components/about/about.component';
+import { ServicesComponent } from './landing-components/services/services.component';
 
 // const routes: Routes = [
 //   {
@@ -18,7 +19,7 @@ import { AboutComponent } from './landing-components/about/about.component';
 // ]
 
 @NgModule({
-  declarations: [LandComponent, AboutComponent],
+  declarations: [LandComponent, AboutComponent, ServicesComponent],
   imports: [
     CommonModule
   ]

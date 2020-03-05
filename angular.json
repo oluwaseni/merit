@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "merit"
+    }
+  },
+  "defaultProject": "merit",
+  "cli": {
+    "analytics": "66f35e6b-251e-4dc1-9efa-626eae33f0e1"
+  }
 }

@@ -1,16 +1,28 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LandComponent } from './landing/landing-components/land/land.component';
+import { AboutComponent } from './landing/landing-components/about/about.component';
+import { ServicesComponent } from './landing/landing-components/services/services.component';
 
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'land', pathMatch: 'full'
+    redirectTo: 'home', pathMatch: 'full'
   },
   {
-    path: 'land',
+    path: 'home',
     component: LandComponent
+   
+  },
+  {
+    path: 'service',
+    component: ServicesComponent
+   
+  },
+  {
+    path: 'about',
+    component: AboutComponent
    
   }
 ];
