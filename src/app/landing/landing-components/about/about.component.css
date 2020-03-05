@@ -1,0 +1,93 @@
+.banner{
+    /* position: absolute; */
+    background-attachment: fixed;
+    /* top: -10px; */
+    height: max-content !important;
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: rgb(255, 255, 255);
+    background-image: url('/assets/images/outdoor1.jpg');
+    background-size: cover;
+    /* background-position: right; */
+    /* background: linear-gradient(to right, #000000 20%, #C6C6C6 30%); */
+    /* background-position-y: -10px; */
+    background-repeat: no-repeat;
+    margin: auto;
+    /* margin-top: -10% !important; */
+    padding-top: 6%;
+    padding-bottom: 1%;
+    padding-left : 0%;;
+    /* background-color: #e0c6c6; */
+    /* transition: background-image 540ms ease-in; */
+    text-align: center !important;
+ 
+
+}
+
+.card-title{
+    text-align: center;
+    /* font-size: 110%; */
+    font-weight: bold;
+}
+
+.graph{
+    width: 80%;
+    margin-left: 8%;
+}
+
+.bannerInners{
+    background-color: rgb(131, 97, 123) !important;
+    width: 80% !important;
+    margin: auto !important;
+    height: max-content;
+    padding: 5%;
+    opacity: 0.9;
+}
+
+.roundDiv{
+    margin-bottom: 30px !important; text-align: center;
+  }
+
+  .roundC{
+    
+        padding: 7%; border-radius: 50%;
+        font-size: 150%; color: #ffffff;
+  }
+  
+
+.values{
+    background-color: #cccccc;
+    padding-left: 13%;
+    padding-top: 3%;
+    text-align: center;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.culture{
+    background-color: #ffffff;
+    padding-left: 13%;
+    padding-top: 3%;
+    text-align: center;
+}
+.values-title{
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.value{
+    padding-top: 5%;
+}
+
+.subTitle{
+    color: #e71515;
+    padding-bottom: 2% !important;
+    font-weight: bold;
+}
+
+.texts{
+    padding-top: 2%;
+    padding-bottom: 3%;
+    color: #424141 !important;
+    text-align: left;
+}

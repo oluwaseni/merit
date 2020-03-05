@@ -5,6 +5,7 @@ import { Routes } from '@angular/router';
 import { LandComponent } from './landing-components/land/land.component';
 import { AboutComponent } from './landing-components/about/about.component';
 import { ServicesComponent } from './landing-components/services/services.component';
+import { FooterComponent } from './landing-components/footer/footer.component';
 
 // const routes: Routes = [
 //   {
@@ -19,7 +20,7 @@ import { ServicesComponent } from './landing-components/services/services.compon
 // ]
 
 @NgModule({
-  declarations: [LandComponent, AboutComponent, ServicesComponent],
+  declarations: [LandComponent, AboutComponent, ServicesComponent, FooterComponent],
   imports: [
     CommonModule
   ]
