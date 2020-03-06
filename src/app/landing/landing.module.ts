@@ -25,7 +25,7 @@ import { WirelineComponent } from './landing-components/services/wireline/wireli
 // ]
 
 @NgModule({
-  declarations: [LandComponent, AboutComponent, ServicesComponent, FooterComponent, WirelessComponent, EnterpriseComponent, PowerComponent, WirelineComponent],
+  declarations: [LandComponent, AboutComponent, ServicesComponent, WirelessComponent, EnterpriseComponent, PowerComponent, WirelineComponent],
   imports: [
     CommonModule,
     AppRoutingModule

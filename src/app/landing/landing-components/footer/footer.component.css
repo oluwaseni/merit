@@ -1,0 +1,23 @@
+.foot{
+    /* height: 50px !important; */
+    width: 100%;
+    background-color: #c9c9c9;
+    text-align: center;
+    color: #000000;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .foot-text{
+    padding: 10%;
+    font-size: 80%;
+    text-align: left;
+    
+  }
+
+  .foot-head{
+    color: #ac0d64;
+    font-weight: bold;
+    margin-top: 5%;
+  }
+

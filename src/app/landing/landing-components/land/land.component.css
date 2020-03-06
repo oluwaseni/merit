@@ -156,29 +156,23 @@
     padding: 10% !important;
     color: #000000;
   }
-
-  .foot{
-    /* height: 50px !important; */
-    width: 100%;
-    background-color: #979696;
-    text-align: center;
-    color: #ffffff;
-    padding-top: 1%;
-    padding-bottom: 1%;
-  }
-
-  .foot-text{
-    padding: 10%;
-    text-align: left;
-  }
-
-  .foot-head{
-    color: #ac0d64;
-    font-weight: bold;
-    margin-top: 5%;
-  }
-
-
+.captions{
+  left: 5%;
+  background-color: #c2c0c0;
+  padding: 5% ;
+  padding-top: 3% !important;
+  padding-bottom: 3% !important;
+  width: 50%;
+  bottom: 35% !important;
+  /* top: 25% !important;  */
+  /* height: 30% !important; */
+  opacity: 0.9;
+  color: #000000;
+}
+.captions h3{
+  color: #ac0d64;
+}
+ 
 
 
 
@@ -244,6 +238,9 @@
 }
 .services-text{
   width: 100% !important;
+}
+.service{
+  color: #4d4747;
 }
 
 .lowbtn{
