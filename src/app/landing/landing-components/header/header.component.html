@@ -1,6 +1,6 @@
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" 
-style="background-color: #573a58 !important; z-index: 600; position: absolute; width: 100% !important;">
+<!-- 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark"
+style="background-color: #1c0da1 !important; z-index: 600; position: absolute; width: 100% !important;">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -13,19 +13,49 @@ style="background-color: #573a58 !important; z-index: 600; position: absolute; w
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="float: right; margin:auto">
         <li class="nav-item" style="margin-right: 10px;">
-          <a class=" active" href="#"><i class="fas fa-home icons"></i>Home</a>
+          <span (click)="home()" class=" active"><i class="fas fa-home icons"></i>Home</span>
         </li>
         <li class="nav-item" style="margin-right: 15px;">
-          <span (click)="about()" class=" active" href="#whatWeDo"><i class="fas fa-laptop-code icons"></i> About Us</span>
+          <span (click)="about()" class=" active"><i class="fas fa-laptop-code icons"></i> About Us</span>
         </li>
         <li class="nav-item" style="margin-right: 15px;">
-          <span class="active"  href="/#services"><i class="fab fa-connectdevelop icons"></i>Services</span>
+          <span (click)="service()" class="active"><i class="fab fa-connectdevelop icons"></i>Services</span>
         </li>
         <li class="nav-item" style="margin-right: 15px;">
-          <span class=" active" href="/#contact"><i class="fas fa-mail-bulk icons"></i>Contact</span>
+          <span (click)="contact()" class=" active"><i class="fas fa-mail-bulk icons"></i>Contact</span>
         </li>
       </ul>
       
     </div>
   </nav>
-
+ -->
+ <nav class="navbars navbar-expand-lg navbar-dark bg-dark" 
+ style="background-color: #636269 !important; padding-left: 8%; padding-bottom: 0%; padding-top: 0%; padding-right: 10%;">
+ 
+  <button class="navbar-toggler mt-3" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    
+<a class="navbar-brand" style="position:relative; 
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold; margin-left: 12%;
+z-index: 600;" href="#">MeritLogo</a>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="float: right; margin:auto">
+  <li><a (click)="home()"><i class="fas fa-home icons mr-2"></i>Home</a></li>
+  <li><a (click)="about()"><i class="fas fa-laptop-code icons mr-2"></i>About Us</a></li>
+  <li><div class="dropdowns">
+    <button class="dropbtns"><i (click)="service()" class="fab fa-connectdevelop icons mr-2"></i>Services
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-contents">
+      <a (click)="wireless()">Wireless</a>
+      <a (click)="enterprise()">Enterprise</a>
+      <a (click)="wireline()">Wireline</a>
+      <a (click)="power()">Power</a>
+    </div>
+  </div></li>
+</ul>
+</div>
+</nav>

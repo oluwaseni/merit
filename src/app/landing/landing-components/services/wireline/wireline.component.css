@@ -1,0 +1,46 @@
+
+.each-title{
+    color: #ac0d64;
+    font-weight: bold;
+    text-align: center;
+}
+
+.each-service{
+ color: rgb(112, 110, 110);
+ margin-top: 2%;
+ /* background-color: #cccccc; */
+}
+
+.box{
+    background-color: #e9e3e3;
+    padding: 3%;
+    border-bottom: #ffffff solid 2px;
+}
+
+.box:hover{
+    background-color: #ffffff;
+}
+
+
+.after{
+    padding: 5%;
+}
+
+
+.card-title{
+    text-align: center;
+    /* font-size: 110%; */
+    font-weight: bold;
+}
+
+.graph{
+    width: 80%;
+    margin-left: 8%;
+}
+
+.top{
+    color: #5c595a;
+    font-size: 130%;
+    font-weight: bold;
+    text-align: center;
+}

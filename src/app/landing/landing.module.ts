@@ -6,6 +6,11 @@ import { LandComponent } from './landing-components/land/land.component';
 import { AboutComponent } from './landing-components/about/about.component';
 import { ServicesComponent } from './landing-components/services/services.component';
 import { FooterComponent } from './landing-components/footer/footer.component';
+import { WirelessComponent } from './landing-components/services/wireless/wireless.component';
+import { EnterpriseComponent } from './landing-components/services/enterprise/enterprise.component';
+import { PowerComponent } from './landing-components/services/power/power.component';
+import { AppRoutingModule } from '../app-routing.module';
+import { WirelineComponent } from './landing-components/services/wireline/wireline.component';
 
 // const routes: Routes = [
 //   {
@@ -20,9 +25,10 @@ import { FooterComponent } from './landing-components/footer/footer.component';
 // ]
 
 @NgModule({
-  declarations: [LandComponent, AboutComponent, ServicesComponent, FooterComponent],
+  declarations: [LandComponent, AboutComponent, ServicesComponent, FooterComponent, WirelessComponent, EnterpriseComponent, PowerComponent, WirelineComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    AppRoutingModule
   ]
 })
 export class LandingModule { }
