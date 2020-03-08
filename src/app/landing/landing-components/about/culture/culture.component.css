@@ -1,0 +1,40 @@
+.image{
+    height:180px;
+     width:100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.images{
+    height: 30% !important;
+}
+
+.vision span{
+    color: #ac0d64;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.vision p{
+    font-size: 80%;
+}
+
+.vision{
+    padding-top: 2%;
+}
+
+li{
+    list-style: square ;
+    color: #524e4e;
+    font-size: 80%;
+}
+
+b{
+    color: #524e4e;
+}
+
+ul{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+

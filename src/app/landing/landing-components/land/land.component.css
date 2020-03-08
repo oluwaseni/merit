@@ -29,7 +29,7 @@
 }
 
 .carousel-inner{
-  height: 500px !important;
+  height: 250px !important;
 }
 
 .card-text{
@@ -51,18 +51,45 @@
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-top: dotted #4d4747 1px;
   }
 
   .after-inner{
-    background-color: #ffffff ;
+    background-color: #e7e7e7 ;
     height: 100%;
     width: 100%;
     opacity: 0.95;
-    padding-top: 10%;
+    padding-top: 3%;
     padding-bottom: 10%;
-    padding-left: 10% !important;
-    padding-right: 10% !important;
+    padding-left: 15% !important;
+    padding-right: 15% !important;
     color: #000000;
+  }
+  .texts{
+    color: #4d4747;
+    font-size: 80%;
+  }
+
+  .lil-caption{
+    position: absolute;
+    background-color: #15367e;
+    opacity: 0.8;
+    color: #ffffff;
+    margin-bottom: 50px !important;
+    padding: 2px 3px 2px 3px;
+  }
+
+  .lil-title{
+    font-weight: bold;
+    font-size: 80%;
+    color: #333132;
+    margin-bottom: 5px !important;
+  }
+
+  .read-more{
+    color: #ac0d64;
+    right: 10%;
+    position: absolute;
   }
 
 .afters{
@@ -157,13 +184,13 @@
     color: #000000;
   }
 .captions{
-  left: 5%;
-  background-color: #c2c0c0;
+  left: 0%;
+  background-color: #dfdbdb;
   padding: 5% ;
-  padding-top: 3% !important;
-  padding-bottom: 3% !important;
+  padding-top: 1% !important;
+  padding-bottom: 1% !important;
   width: 50%;
-  bottom: 35% !important;
+  bottom: 20% !important;
   /* top: 25% !important;  */
   /* height: 30% !important; */
   opacity: 0.9;
@@ -203,7 +230,7 @@
   @media screen and (max-width: 700px) {
 
     .carousel-inner{
-      height: 300px !important;
+      height: 200px !important;
     }
     
         

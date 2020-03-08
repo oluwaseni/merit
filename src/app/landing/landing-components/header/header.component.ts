@@ -38,6 +38,21 @@ export class HeaderComponent implements OnInit {
     this.router.navigate(['service/wireline'])
   }
 
+  
+  overview(){
+    this.router.navigate(['about/overview'])
+  }
+  mission(){
+    this.router.navigate(['about/mission'])
+  }
+  values(){
+    this.router.navigate(['about/values'])
+  }
+  culture(){
+    this.router.navigate(['about/culture'])
+  }
+
+
 
 
 }

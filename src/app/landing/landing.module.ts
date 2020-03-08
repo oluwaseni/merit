@@ -11,6 +11,10 @@ import { EnterpriseComponent } from './landing-components/services/enterprise/en
 import { PowerComponent } from './landing-components/services/power/power.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { WirelineComponent } from './landing-components/services/wireline/wireline.component';
+import { OverviewComponent } from './landing-components/about/overview/overview.component';
+import { MissionComponent } from './landing-components/about/mission/mission.component';
+import { ValuesComponent } from './landing-components/about/values/values.component';
+import { CultureComponent } from './landing-components/about/culture/culture.component';
 
 // const routes: Routes = [
 //   {
@@ -25,7 +29,7 @@ import { WirelineComponent } from './landing-components/services/wireline/wireli
 // ]
 
 @NgModule({
-  declarations: [LandComponent, AboutComponent, ServicesComponent, WirelessComponent, EnterpriseComponent, PowerComponent, WirelineComponent],
+  declarations: [LandComponent, AboutComponent, ServicesComponent, WirelessComponent, EnterpriseComponent, PowerComponent, WirelineComponent, OverviewComponent, MissionComponent, ValuesComponent, CultureComponent],
   imports: [
     CommonModule,
     AppRoutingModule

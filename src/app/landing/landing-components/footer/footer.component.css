@@ -1,11 +1,13 @@
 .foot{
     /* height: 50px !important; */
     width: 100%;
-    background-color: #c9c9c9;
+    background-color: #ffffff;
     text-align: center;
-    color: #000000;
+    color: #15367e;
     padding-top: 1%;
     padding-bottom: 1%;
+    margin-top: 10% !important;
+    
   }
 
   .foot-text{
@@ -16,7 +18,7 @@
   }
 
   .foot-head{
-    color: #ac0d64;
+    color: #1f1e1e;
     font-weight: bold;
     margin-top: 5%;
   }

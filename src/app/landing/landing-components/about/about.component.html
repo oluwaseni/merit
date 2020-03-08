@@ -1,7 +1,30 @@
-<div style="overflow-x: hidden; width: 100% !important;">
+<div class="all">
+<hr>
+<hr>
+<div class="contains">
+    
 
+    <div class="about-title">
+        <span> About Merit Telecomms</span>
+    </div>
+    <hr class="sec">
+    <div class="about-body">
+        <div class="row">
+            <div class="col-md-3">
+                <ul>
+                    <div (click)="overview()" class="li-top">Overview</div>
+                    <li (click)="mission()">Vision & Mission</li>
+                    <li (click)="values()">Core Values</li>
+                    <li (click)="culture()">Our Culture</li>
+                </ul>
+            </div>
+            <div class="col-md-9">
+               <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
 
-<div id="banner" class="banner" >
+<!-- <div id="banner" class="banner" >
 
     <div class="bannerInner">
 
@@ -14,110 +37,10 @@
         
     </p>
 </div>
-  </div>
-  <div style="padding: 5%; padding-left: 10% !important;">
-      <div style=" font-size: 150%; font-weight: bold;">
-          <span> WHO WE ARE</span>
-      </div>
-      <div class="row offset-7 pl-lg-5">
-          <div class="card col-md-3 pt-3 m-3 ml-lg-5">
-              <img src="/assets/images/outdoor2.jpg" height="40%" width="100%" alt="">
-              <div class="card-title">
-                  Our History
-              </div>
-              <div class="card-body">
-                  <ul class="card-texts">
-                   <li> Registered in Nigeria in October 2002 and commenced operation in 2005.</li>
-                    <li> Registered in Ghana in June 2008.</li>
-                  </ul>
-              </div>
-          </div>
-          <div class="card col-md-3 pt-3 m-3  ml-lg-5">
-              <img src="/assets/images/outdoor2.jpg" height="40%" width="100%" alt="">
-              <div class="card-title">
-                  Our Mission
-              </div>
-              <div class="card-body">
-                  <p class="card-texts">
-                    Our mission is to create innovative next-generation networks which will enhance global
-                    communication.
-                    To accomplish this mission, we strive to be the premier provider of groundbreaking network
-                    engineering, system integration, technical solutions and services in our business areas.
-                  </p>
-              </div>
-          </div>
-          <div class="card col-md-3 pt-3 m-3 ml-lg-5">
-              <img src="/assets/images/outdoor2.jpg" height="40%" width="100%" alt="">
-              <div class="card-title">
-                  Our Vission
-              </div>
-              <div class="card-body">
-                  <p class="card-texts">
-                    MERIT vision is to be the best in delivering cutting edge Telecommunication solutions.
+  </div> -->
 
-                  </p>
-              </div>
-          </div>
-          
-      </div>
-  </div>
+ 
 
-  <div class="values">
-      <div class="values-title"> Our Values</div>
-      <div class="row value">
-          <div class="col-md-4">
-              <span class="subTitle">Exceed customers’ expectations</span>
-              <div class="texts">
-                Honoring the customer as our most important asset is our priority.
-
-              </div>
-          </div>
-          <div class="col-md-4">
-              <span class="subTitle">Creatively solve problems</span>
-              <div class="texts">
-                Merit empowers its people to think creatively, enabling a diverse workforce that generates
-                    innovative decision-making for a broad spectrum of customers and partners.
-
-              </div>
-          </div>
-          <div class="col-md-4">
-              <span class="subTitle">Knowledge and experience</span>
-              <div class="texts">
-                By relying on our vast experience and seasoned industry technicians, MERIT can solve a range of network
-challenges to meet the needs of our customers.
-
-              </div>
-          </div>
-      </div>
-      <div class="row value">
-          <div class="col-md-4">
-              <span class="subTitle">Maximizing opportunities</span>
-              <div class="texts">
-                Share knowledge, expertise and relationships to open new doors of opportunity and to facilitate
-                interaction among the customers.
-              </div>
-          </div>
-          <div class="col-md-4">
-              <span class="subTitle">Be accountable</span>
-              <div class="texts">
-                Take responsibility, make things happen, admit to mistakes, and commit to learning and growth.
-
-
-              </div>
-          </div>
-          <div class="col-md-4">
-              <span class="subTitle">Committment to customers</span>
-              <div class="texts">
-                At MERIT, we're committed to our mission of helping our customers development to new heights, deliver
-                valuable new services, and achieve goals they never thought possible.
-                
-              </div>
-          </div>
-      </div>
-  </div>
-
-  <div class="culture">
-      Our Culture
-  </div>
-
+ 
+</div>
 </div>

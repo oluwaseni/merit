@@ -7,6 +7,10 @@ import { WirelessComponent } from './landing/landing-components/services/wireles
 import { EnterpriseComponent } from './landing/landing-components/services/enterprise/enterprise.component';
 import { PowerComponent } from './landing/landing-components/services/power/power.component';
 import { WirelineComponent } from './landing/landing-components/services/wireline/wireline.component';
+import { OverviewComponent } from './landing/landing-components/about/overview/overview.component';
+import { MissionComponent } from './landing/landing-components/about/mission/mission.component';
+import { ValuesComponent } from './landing/landing-components/about/values/values.component';
+import { CultureComponent } from './landing/landing-components/about/culture/culture.component';
 
 
 const routes: Routes = [
@@ -42,12 +46,40 @@ const routes: Routes = [
       path: 'power',
       component: PowerComponent
     }
+
     ]
    
   },
   {
     path: 'about',
-    component: AboutComponent
+    component: AboutComponent,
+
+    children:[
+      {
+        path: '',
+        redirectTo: 'overview', pathMatch: "full"
+      }
+      ,
+      {
+        path: 'overview',
+        component: OverviewComponent
+      }
+      ,
+      {
+        path: 'mission',
+        component: MissionComponent
+      }
+      ,
+      {
+        path: 'values',
+        component: ValuesComponent
+      }
+      ,
+      {
+        path: 'culture',
+        component: CultureComponent
+      }
+    ]
    
   }
 ];
