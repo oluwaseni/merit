@@ -6,7 +6,7 @@
     height: max-content !important;
     font: 400 15px/1.8 Lato, sans-serif;
     color: rgb(255, 255, 255);
-    background-image: url('/assets/images/outdoor1.jpg');
+    background-image: url('/assets/gifs/giphy4.gif');
     background-size: cover;
     /* background-position: right; */
     /* background: linear-gradient(to right, #000000 20%, #C6C6C6 30%); */
@@ -24,6 +24,52 @@
 
 }
 
+.unordered li{
+    list-style-type: square !important;
+    color: #383737 !important;
+    /* box-shadow: 1px 1px 1px 1px #acacac; */
+    padding: 1%;
+    cursor: pointer;
+    /* margin-top: 3%; */
+}
+
+.unordered li:hover{
+    font-size: 101%;
+    color: #ac0d64 !important;
+}
+
+.each-title{
+    color: #ac0d64;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.no-scroll{
+    position: fixed;
+    z-index: 3000;
+}
+.each-service{
+ color: rgb(112, 110, 110);
+ margin-top: 2%;
+ /* background-color: #cccccc; */
+}
+
+.box{
+    background-color: #e9e3e3;
+    padding: 3%;
+}
+
+.box:hover{
+    background-color: #ffffff;
+}
+
+
+.after{
+    padding: 5%;
+}
+
+
 .card-title{
     text-align: center;
     /* font-size: 110%; */
@@ -31,85 +77,47 @@
 }
 
 .graph{
-    width: 80%;
+    width: 100%;
     margin-left: 8%;
+    font-size: 80%;
 }
 
 .bannerInner{
-    background-color: rgb(131, 97, 123) !important;
+    background-color: #e9e3e3 !important;
     width: 80% !important;
     margin: auto !important;
     height: max-content;
     padding: 5%;
     opacity: 0.9;
-}
-
-.roundDiv{
-    margin-bottom: 30px !important; text-align: center;
-  }
-
-  .roundC{
-    
-        padding: 7%; border-radius: 50%;
-        font-size: 150%; color: #ffffff;
-  }
-  
-
-.values{
-    background-color: #cccccc;
-    padding-left: 10%;
-    padding-right: 3%;
-    padding-top: 3%;
-    text-align: center;
-    
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
-.culture{
-    background-color: #ffffff;
-    padding-left: 13%;
-    padding-top: 3%;
-    text-align: center;
-}
-.values-title{
-    font-size: 130%;
-    font-weight: bold;
-}
-
-.value{
-    padding-top: 5%;
-}
-
-.subTitle{
-    color: #e71515;
-    padding-bottom: 2% !important;
-    font-weight: bold;
-}
-
-.texts{
-    /* padding-top: 2%;
-    padding-bottom: 3%; */
-    padding: 5%;
-    color: #424141 !important;
-    text-align: left;
-    font-size: 90%;
+    color: #383737;
 }
 
 
-/* Newwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww */
+/* /////////////////////////New///////////////////////////////////////////// */
+
 .all{
     border-top: solid #000000;
     background-color: #dfdbdb;
+    
 }
 
 .contains{
-    overflow-x: hidden; width: 100% !important; padding: 2% 15% 0% 15%;
+    overflow-x: hidden; width: 100% !important; 
+    
     border-top: dotted #424141 0.5px;
+    margin-top: 136px;
 }
 .about-title{
-    /* border-bottom: dotted #b4b2b2 2px; */
-    padding-top: 0%;
+    border-bottom: dotted #b4b2b2 2px;
+    border-top: solid #000000;
+    background-color: #dfdbdb;
+    position: fixed;
+    z-index: 250;
+}
+
+.padded{
+    
+    padding: 2% 18% 0% 18%;
 }
 
 .about-title span{
@@ -129,7 +137,7 @@ hr{
 }
 
 .about-body{
-    padding-top: 2%;
+    padding: 10% 15% 0% 15%;
 }
 ul{
     padding-left: 0%;
@@ -146,6 +154,7 @@ ul{
 li{
     background-color: #949191;
     padding: 3%;
+    width: 200px !important;
     padding-left: 10%;
     border-bottom:  dotted 1px #acabab;
     color: #f5c4f7;
@@ -158,3 +167,4 @@ li:hover{
     background-color: #ac0d64;
     color: #ffffff;
 }
+

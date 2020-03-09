@@ -44,6 +44,11 @@
     text-align: center;
 }
 
+
+.no-scroll{
+    position: fixed;
+    z-index: 3000;
+}
 .each-service{
  color: rgb(112, 110, 110);
  margin-top: 2%;
@@ -72,8 +77,9 @@
 }
 
 .graph{
-    width: 80%;
+    width: 100%;
     margin-left: 8%;
+    font-size: 80%;
 }
 
 .bannerInner{
@@ -84,5 +90,80 @@
     padding: 5%;
     opacity: 0.9;
     color: #383737;
+}
+
+
+/* /////////////////////////New///////////////////////////////////////////// */
+
+.all{
+    border-top: solid #000000;
+    background-color: #dfdbdb;
+    
+}
+
+.contains{
+    overflow-x: hidden; width: 100% !important; 
+    
+    border-top: dotted #424141 0.5px;
+    margin-top: 136px;
+}
+.about-title{
+    border-bottom: dotted #b4b2b2 2px;
+    border-top: solid #000000;
+    background-color: #dfdbdb;
+    position: fixed;
+    z-index: 250;
+}
+
+.padded{
+    
+    padding: 2% 18% 0% 18%;
+}
+
+.about-title span{
+    color: #ac0d64;
+    font-size: 200%;
+}
+
+hr{
+    border: dotted #949191 0.5px;
+    margin: 1px;
+    overflow-x: hidden;
+}
+
+.sec{
+    border: dotted #b4b2b2 2px !important;
+    height: 1px;
+}
+
+.about-body{
+    padding: 10% 15% 0% 15%;
+}
+ul{
+    padding-left: 0%;
+}
+
+.li-top{
+    padding: 5% !important;
+    margin-bottom: 5px !important;
+    font-weight: bold;
+    font-size: 90%;
+    cursor: pointer;
+}
+
+li{
+    background-color: #949191;
+    padding: 3%;
+    padding-left: 10%;
+    border-bottom:  dotted 1px #acabab;
+    color: #f5c4f7;
+    font-size: 80%;
+    list-style: none;
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: #ac0d64;
+    color: #ffffff;
 }
 
