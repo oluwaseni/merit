@@ -1,7 +1,7 @@
 
  <div style="padding: 6% 15% 1% 15%; background-color: #15367e;">
  <nav class="navbars navbar-expand-lg navbar-dark bg-dark" 
- style="background-color: #636269 !important; padding-left: 8%; padding-bottom: 0%; padding-top: 0%; padding-right: 10%;">
+ style="background-color: #636269 !important; padding-left: 8%; padding-bottom: 0%; padding-top: 0%; padding-right: 1%;">
  
   <button class="navbar-toggler mt-3" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -15,8 +15,18 @@ z-index: 600;" href="#">MeritLogo</a>
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="float: right; margin:auto">
   <li class="link"><a (click)="home()"><i class="fas fa-home icons mr-2"></i>Home</a></li>
-  <li  class="link"><a (click)="about()"><i class="fas fa-laptop-code icons mr-2"></i>About Us</a></li>
   <li  class="link"><div class="dropdowns">
+    <button class="dropbtns"><i (click)="service()" class="fab fa-connectdevelop icons mr-2"></i>About Us
+      <i style="color: #ffffff !important;" class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-contents">
+      <a (click)="overview()">About</a>
+      <a (click)="mision()">Our Mision</a>
+      <a (click)="values()">Our Values</a>
+      <a (click)="culture()">Our Culture</a>
+    </div>
+  </div></li>
+  <!-- <li class="link"><div class="dropdowns">
     <button class="dropbtns"><i (click)="service()" class="fab fa-connectdevelop icons mr-2"></i>Services
       <i class="fa fa-caret-down"></i>
     </button>
@@ -26,7 +36,7 @@ z-index: 600;" href="#">MeritLogo</a>
       <a (click)="wireline()">Wireline</a>
       <a (click)="power()">Power</a>
     </div>
-  </div></li>
+  </div></li> -->
   <li class="link"><div class="dropdowns">
     <button class="dropbtns"><i (click)="service()" class="fab fa-connectdevelop icons mr-2"></i>Services
       <i class="fa fa-caret-down"></i>
@@ -38,17 +48,8 @@ z-index: 600;" href="#">MeritLogo</a>
       <a (click)="power()">Power</a>
     </div>
   </div></li>
-  <li class="link"><div class="dropdowns">
-    <button class="dropbtns"><i (click)="service()" class="fab fa-connectdevelop icons mr-2"></i>Services
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-contents">
-      <a (click)="wireless()">Wireless</a>
-      <a (click)="enterprise()">Enterprise</a>
-      <a (click)="wireline()">Wireline</a>
-      <a (click)="power()">Power</a>
-    </div>
-  </div></li>
+  <li  class="link"><a (click)="contact()"><i class="fas fa-laptop-code icons mr-2"></i>Contact Us</a></li>
+  <li  class="link"><a (click)="contact()"><i class="fas fa-laptop-code icons mr-2"></i>FAQ</a></li>
 </ul>
 </div>
 </nav>
