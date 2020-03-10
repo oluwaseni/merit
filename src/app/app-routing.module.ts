@@ -11,6 +11,7 @@ import { OverviewComponent } from './landing/landing-components/about/overview/o
 import { MissionComponent } from './landing/landing-components/about/mission/mission.component';
 import { ValuesComponent } from './landing/landing-components/about/values/values.component';
 import { CultureComponent } from './landing/landing-components/about/culture/culture.component';
+import { FooterComponent } from './landing/landing-components/footer/footer.component';
 
 
 const routes: Routes = [
@@ -21,6 +22,11 @@ const routes: Routes = [
   {
     path: 'home',
     component: LandComponent
+   
+  },
+  {
+    path: 'contact',
+    component: FooterComponent
    
   },
   {

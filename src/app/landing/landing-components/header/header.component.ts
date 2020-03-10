@@ -51,6 +51,9 @@ export class HeaderComponent implements OnInit {
   culture(){
     this.router.navigate(['about/culture'])
   }
+  contact(){
+    this.router.navigate(['contact'])
+  }
 
 
 

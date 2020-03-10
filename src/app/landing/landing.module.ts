@@ -15,6 +15,7 @@ import { OverviewComponent } from './landing-components/about/overview/overview.
 import { MissionComponent } from './landing-components/about/mission/mission.component';
 import { ValuesComponent } from './landing-components/about/values/values.component';
 import { CultureComponent } from './landing-components/about/culture/culture.component';
+import { FaqComponent } from './landing-components/faq/faq.component';
 
 // const routes: Routes = [
 //   {
@@ -29,7 +30,10 @@ import { CultureComponent } from './landing-components/about/culture/culture.com
 // ]
 
 @NgModule({
-  declarations: [LandComponent, AboutComponent, ServicesComponent, WirelessComponent, EnterpriseComponent, PowerComponent, WirelineComponent, OverviewComponent, MissionComponent, ValuesComponent, CultureComponent],
+  declarations: [LandComponent, AboutComponent, ServicesComponent,
+     WirelessComponent, EnterpriseComponent, PowerComponent, 
+     WirelineComponent, OverviewComponent, MissionComponent, 
+     ValuesComponent, CultureComponent, FaqComponent, FooterComponent],
   imports: [
     CommonModule,
     AppRoutingModule

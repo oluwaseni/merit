@@ -1,0 +1,15 @@
+
+
+li{
+    display: inline;
+    list-style: square !important;
+    cursor: pointer;
+}
+li:hover{
+    color: violet;
+}
+
+ul{
+    float:right;
+    margin-right: 15%;
+}

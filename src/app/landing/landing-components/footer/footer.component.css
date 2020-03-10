@@ -23,3 +23,48 @@
     margin-top: 5%;
   }
 
+
+  .all{
+    border-top: solid #000000;
+    background-color: #dfdbdb;
+    
+}
+
+.contains{
+    overflow-x: hidden; width: 100% !important; 
+    
+    border-top: dotted #424141 0.5px;
+    margin-top: 136px;
+}
+.about-title{
+    border-bottom: dotted #b4b2b2 2px;
+    border-top: solid #000000;
+    background-color: #dfdbdb;
+    position: fixed;
+    z-index: 250;
+}
+
+.padded{
+    
+    padding: 2% 18% 0% 18%;
+}
+
+.about-title span{
+    color: #ac0d64;
+    font-size: 200%;
+}
+
+hr{
+    border: dotted #949191 0.5px;
+    margin: 1px;
+    overflow-x: hidden;
+}
+
+.sec{
+    border: dotted #b4b2b2 2px !important;
+    height: 1px;
+}
+
+.about-body{
+    padding: 10% 15% 0% 15%;
+}

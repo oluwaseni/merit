@@ -10,7 +10,7 @@ import { FooterComponent } from './landing/landing-components/footer/footer.comp
 
 @NgModule({
   declarations: [
-    AppComponent, HeaderComponent, FooterComponent
+    AppComponent, HeaderComponent
   ],
   imports: [
     BrowserModule,
