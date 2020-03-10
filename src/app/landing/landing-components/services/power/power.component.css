@@ -3,11 +3,13 @@
     color: #ac0d64;
     font-weight: bold;
     text-align: center;
+    font-size: 90%;
 }
 
 .each-service{
  color: rgb(112, 110, 110);
  margin-top: 2%;
+ font-size: 80%;
  /* background-color: #cccccc; */
 }
 
