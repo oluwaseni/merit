@@ -42,7 +42,7 @@ export class HeaderComponent implements OnInit {
   overview(){
     this.router.navigate(['about/overview'])
   }
-  mission(){
+  mision(){
     this.router.navigate(['about/mission'])
   }
   values(){
