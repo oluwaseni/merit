@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './landing/landing-components/header/header.component';
 import { LandComponent } from './landing/landing-components/land/land.component';
 import { LandingModule } from './landing/landing.module';
+import { FooterComponent } from './landing/landing-components/footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent, HeaderComponent, //LandComponent
+    AppComponent, HeaderComponent, FooterComponent
   ],
   imports: [
     BrowserModule,
